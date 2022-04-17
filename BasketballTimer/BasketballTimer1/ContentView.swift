@@ -8,7 +8,8 @@
 import SwiftUI
 
 let configHaptic = UIImpactFeedbackGenerator(style: .light)
-
+let promptAudio = AudioUtil(resourceName: "sound1")
+let specialpromptAudio = AudioUtil(resourceName: "sound2")
 struct ContentView: View {
     var body: some View {
         HStack {

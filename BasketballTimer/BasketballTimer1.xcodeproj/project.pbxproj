@@ -13,6 +13,7 @@
 		7728FCA727FC252B007A5B6B /* BasketballTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7728FCA627FC252B007A5B6B /* BasketballTimerApp.swift */; };
 		7728FCAB27FC2533007A5B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7728FCAA27FC2533007A5B6B /* Assets.xcassets */; };
 		7728FCAE27FC2533007A5B6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7728FCAD27FC2533007A5B6B /* Preview Assets.xcassets */; };
+		7798ADE9280C332D002B56A4 /* AudioUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7798ADE8280C332D002B56A4 /* AudioUtil.swift */; };
 		77D8BB7D27FD63CF008D3D52 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77D8BB7C27FD63CF008D3D52 /* sound1.mp3 */; };
 		77D8BB7F27FD6429008D3D52 /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77D8BB7E27FD6429008D3D52 /* sound2.mp3 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 		7728FCA627FC252B007A5B6B /* BasketballTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballTimerApp.swift; sourceTree = "<group>"; };
 		7728FCAA27FC2533007A5B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7728FCAD27FC2533007A5B6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7798ADE8280C332D002B56A4 /* AudioUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioUtil.swift; sourceTree = "<group>"; };
 		77D8BB7C27FD63CF008D3D52 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
 		77D8BB7E27FD6429008D3D52 /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 				771817A52802BB6F00F61E5B /* ContentView.swift */,
 				771817A72802BBA500F61E5B /* SecondsTimerView.swift */,
 				771817A92802BBB400F61E5B /* Sectiontimer1.swift */,
+				7798ADE8280C332D002B56A4 /* AudioUtil.swift */,
 				77D8BB7C27FD63CF008D3D52 /* sound1.mp3 */,
 				77D8BB7E27FD6429008D3D52 /* sound2.mp3 */,
 				7728FCAA27FC2533007A5B6B /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 				771817AA2802BBB500F61E5B /* Sectiontimer1.swift in Sources */,
 				771817A82802BBA600F61E5B /* SecondsTimerView.swift in Sources */,
 				7728FCA727FC252B007A5B6B /* BasketballTimerApp.swift in Sources */,
+				7798ADE9280C332D002B56A4 /* AudioUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

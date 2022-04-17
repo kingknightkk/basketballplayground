@@ -59,7 +59,7 @@ struct SectionTimerView: View {
     func prompt1(){
         if minutes == 05 || minutes==03 || minutes==01 {
             playerThread3.async{
-                soundPlayer1.play()
+                promptAudio.playAudio()
             }
         }
     }
@@ -67,12 +67,12 @@ struct SectionTimerView: View {
     func prompt2() {
         if seconds <= 15 && seconds > 0 {
             playerThread3.async {
-                soundPlayer1.play()
+                promptAudio.playAudio()
             }
         }
         else if seconds == 0 {
             playerThread4.async {
-                soundPlayer2.play()
+                specialpromptAudio.playAudio()
             }
         }
     }

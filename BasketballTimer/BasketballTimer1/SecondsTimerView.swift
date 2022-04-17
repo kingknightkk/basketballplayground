@@ -73,12 +73,12 @@ struct SecondsTimerView: View {
                         if timeRemaining <= 10 && timeRemaining > 0 {
                             if timeRemaining == 10 {
                                 count = false
-                                playerThread1.async{soundPlayer1.play()}
+                                playerThread1.async{promptAudio.playAudio()}
                             } else {
-                                playerThread1.async{soundPlayer1.play()}
+                                playerThread1.async{promptAudio.playAudio()}
                             }
                         } else if timeRemaining == 0 {
-                            playerThread2.async{soundPlayer2.play()}
+                            playerThread2.async{specialpromptAudio.playAudio()}
                         }
                     }
                 }
